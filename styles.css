@@ -2,7 +2,7 @@ body {
     display: flex;
     margin-top: 50px;
     justify-content: center;
-    background-color: #f1dbdb;
+    background: linear-gradient(to top, #feada6 0%, #f5efef 100%);
   }
   button {
     width: 75px;
@@ -12,19 +12,19 @@ body {
     outline: none;
     padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: whitesmoke;
   }
   
   #header {
     padding: 10px;
-    color: #d36c6c;
+    color: #9f4c4c;
     font-size: 26px;
     font-family: sans-serif;
     display: flex;
     justify-content: space-between;
   }
   #header button {
-    background-color:#92a1d1;
+    background: linear-gradient(109.6deg, rgb(137, 191, 221) 11.2%, rgb(150, 144, 204) 100.2%);
   }
   #container {
     width: 770px;
@@ -58,12 +58,12 @@ body {
     justify-content: space-between;
   }
   .day:hover {
-    background-color:#92a1d1;
+    background-color:#808cb5;
     /* background-color: #e8faed; */
   }
   
   .day + #currentDay {
-    background-color:#e8f4fa;
+    background-color:#dae9f0;
   }
   .event {
     font-size: 10px;
@@ -106,10 +106,10 @@ body {
     border: 2px solid red;
   }
   #cancelButton, #deleteButton {
-    background-color: #d36c6c;
+    background-color: #b75858;
   }
   #saveButton, #closeButton {
-    background-color: #92a1d1;
+    background-color: #7787bb;
   }
   #eventText {
     font-size: 14px;
